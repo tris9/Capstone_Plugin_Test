@@ -13,11 +13,7 @@ import java.util.Calendar;
 
 public class MyToolWindow {
 
-  private JLabel currentDate;
-  private JLabel currentTime;
-  private JLabel timeZone;
   private JPanel myToolWindowContent;
-
   private JButton runSlicerButton;
   private JButton stopSlicerButton;
   private JButton forwardSlicerButton;
@@ -75,6 +71,10 @@ public class MyToolWindow {
 
   private void createUIComponents() {
     // TODO: place custom component creation code here
+
+    myToolWindowContent = new JPanel();
+    myToolWindowContent.setLayout(new FlowLayout(FlowLayout.LEFT, 20, 20));
+
     runSlicerButton = new JButton();
     runSlicerButton.setIcon(AllIcons.Actions.Execute);
     runSlicerButton.setBorderPainted(true);
