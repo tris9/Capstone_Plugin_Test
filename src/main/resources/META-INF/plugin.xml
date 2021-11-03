@@ -135,7 +135,7 @@
     </change-notes>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow id="Slicer Test" secondary="false" icon="AllIcons.General.Modified" anchor="right"
+        <toolWindow id="Slicer4J" secondary="false" icon="AllIcons.General.Modified" anchor="right"
                     factoryClass="org.intellij.sdk.toolWindow.MyToolWindowFactory"/>
     </extensions>
 </idea-plugin>
